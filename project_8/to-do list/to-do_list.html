@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <link rel="stylesheet" href="to-do_list.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+  <input type="text" id="input" placeholder="Enter a task">
+  <button onclick="addItem()">Add</button>
+
+  <ul id="list"></ul>
+
+  <script>
+    const input = document.getElementById("input");
+    const list = document.getElementById("list");
+
+    function addItem() {
+      if (input.value.trim() !== "") {
+        const li = document.createElement("li");
+        li.textContent = input.value;
+        li.onclick = () => li.remove();
+        list.appendChild(li);
+        input.value = "";
+      }
+    }
+  </script>
+</body>
+</html>

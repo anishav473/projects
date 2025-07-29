@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: pink;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;}
+
+.gallery {
+ display: inline-flex;
+  gap: 30px;
+  padding: 25px;
+  max-width: 1020px;
+  margin: 20px auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: #333 solid 2px;
+}
+
