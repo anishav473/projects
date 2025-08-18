@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.parallax-card {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 110%;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.parallax-card:hover .parallax-bg {
+  transform: scale(1.1) translateY(-10px);
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 20px;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
