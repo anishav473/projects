@@ -1,0 +1,26 @@
+Project Name: Resume Website
+
+Description:
+  - This project is a personal resume webpage created with HTML and CSS.
+  - It shows important details such as About Me, Skills, and Work Experience.
+  - The design is simple, clean, and easy to read on both desktop and mobile.
+  - The goal is to present my profile in a professional way.
+
+Implementation:
+  - HTML is used for the structure:
+        * <header> to display my name and contact details.
+        * <section> for About, Skills, and Work Experience.
+        * <ul> lists for skills and job history.
+  - CSS is used for styling:
+        * Background is black, with a white content box in the center.
+        * Used padding, margins, and shadows for a neat layout.
+        * Section titles have a colored underline for better separation.
+        * Responsive design with @media makes it look good on small screens.
+
+Features:
+  - Professional one-page resume design.
+  - Highlights skills, work experience, and personal introduction.
+  - Mobile-friendly layout for better readability.
+  - Clean typography with Times New Roman for a formal look.
+
+

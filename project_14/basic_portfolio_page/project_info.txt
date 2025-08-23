@@ -1,0 +1,33 @@
+Project Name: Portfolio Website
+
+Description:
+  - A personal portfolio website for Anisha.
+  - Showcases introduction, skills, projects, and contact information.
+  - Includes a resume download option and contact form.
+
+Implementation:
+  - HTML:
+      * Header with navigation menu (Home, About, Skills, Projects, Contact).
+      * Hero section with welcome message and call-to-action button.
+      * About section with profile image, description, and resume download link.
+      * Skills section showing key technologies in a grid layout.
+      * Projects section with cards linking to GitHub repositories.
+      * Contact section with form, email, and footer.
+  - CSS:
+      * Used CSS variables for theme colors.
+      * Flexbox and Grid used for layout.
+      * Dark mode enabled with JavaScript toggle.
+      * Sticky header with hover effects for navigation.
+      * Smooth animations on scroll (fade-in).
+      * Responsive design for mobile and desktop.
+  - JavaScript:
+      * Theme toggle (light/dark mode).
+      * Scroll animations using IntersectionObserver.
+
+Features:
+  - Responsive design (works on mobile, tablet, desktop).
+  - Dark mode toggle for better user experience.
+  - Downloadable resume button.
+  - Project cards with GitHub links.
+  - Contact form for messages.
+  - Smooth fade-in animations on scroll.

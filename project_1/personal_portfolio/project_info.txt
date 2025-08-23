@@ -1,0 +1,29 @@
+Project Name: Portfolio Website
+
+Description:
+- A personal portfolio website created with HTML and CSS.
+- It introduces the developer, showcases skills, highlights projects, and provides contact details.
+- The design is simple, clean, and beginner-friendly.
+
+Implementation:
+- HTML:
+  * <header> contains the name, tagline, and navigation menu.
+  * <nav> provides links to different sections (About, Skills, Projects, Contact).
+  * <section> blocks are used for About, Skills, Projects, and Contact.
+  * <ul> used for listing skills and projects.
+  * <footer> contains copyright.
+- CSS:
+  * Used 'Times New Roman' font for a professional look.
+  * Header and footer styled with dark background (#222) and white text.
+  * Navigation links styled with hover effect (color change).
+  * Sections have padding and max-width for better readability.
+  * Buttons styled with red background, white text, and rounded corners.
+
+Features:
+- Clear navigation menu for easy movement between sections.
+- About section gives a short personal introduction.
+- Skills section highlights technical expertise.
+- Projects section lists sample work with GitHub link.
+- Contact section provides email, phone, and LinkedIn profile.
+- Responsive layout with centered content for good readability.
+

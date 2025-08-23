@@ -1,0 +1,24 @@
+Project Name: Movie Review Page
+
+Description:
+  - A clean webpage to display reviews of movies.
+  - Example shows the Marathi historical film "Chhava".
+  - Includes title, poster image, detailed review, and rating.
+
+Implementation:
+  - HTML:
+      * <main> used as the main wrapper.
+      * Movie section includes title, image, review text, and rating.
+      * Proper semantic tags (<h2>, <p>, <strong>) for clarity.
+  - CSS:
+      * Light gray background with a white review card.
+      * Shadow and rounded corners for a modern card look.
+      * Movie title styled with uppercase letters, border, and Georgia font.
+      * Poster image responsive with rounded edges.
+      * Text styling improves readability (line height and spacing).
+
+Features:
+  - Highlights a movie with review and star rating.
+  - Attractive layout that feels like a mini blog post.
+  - Easy to add more movies by duplicating the section.
+  - Reusable design for film reviews, book reviews, or product reviews.

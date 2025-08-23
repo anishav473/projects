@@ -1,0 +1,27 @@
+Project Name: Computer FAQ (Frequently Asked Questions)
+
+Description:
+  - This project is a simple FAQ webpage about computers.
+  - It uses HTML <details> and <summary> tags to create collapsible questions and answers.
+  - The design is clean and user-friendly, with each question expanding on click.
+  - The goal is to make learning about computers easy and interactive.
+
+Implementation:
+  - HTML:
+        * <h1> for the main heading.
+        * <section> to group all FAQ questions.
+        * <details> and <summary> used for each question-answer block.
+        * <p> to write clear and short answers.
+  - CSS:
+        * Used Arial font for readability.
+        * Background color is light gray (#f0f0f0) for a soft look.
+        * FAQ boxes have white background, borders, and rounded corners.
+        * <summary> text is bold and clickable like a button.
+        * Padding and margins improve spacing between questions.
+
+Features:
+  - Collapsible FAQ style (open/close questions).
+  - Simple and responsive design.
+  - Easy to read and navigate.
+  - Beginner-friendly code structure.
+

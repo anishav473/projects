@@ -1,0 +1,28 @@
+
+Project Name: Simple Image Gallery
+
+Description:
+  - This project is a simple image gallery created using HTML and CSS.
+  - It displays multiple images in one place, arranged in a clean layout.
+  - Each image is clickable and opens the full-size version when clicked.
+  - The gallery design is simple, neat, and easy to understand.
+
+Implementation:
+  - HTML is used to build the structure of the page:
+        * <h1> tag for the main title.
+        * <div class="gallery"> to hold all images.
+        * <a> tags used so each image is clickable.
+        * <img> tags used to display the images.
+  - CSS is used to style the page:
+        * Body has pink background with some margin and padding.
+        * Gallery uses "inline-flex" to arrange images in a row.
+        * Added gap between images for better spacing.
+        * Borders and rounded corners are added to images for a clean look.
+
+Features:
+  - Responsive design: images automatically adjust their size.
+  - Attractive layout with equal spacing between pictures.
+  - Borders make the gallery look neat and professional.
+  - Easy to expand: more images can be added just by adding <a><img></a>.
+
+

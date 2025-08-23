@@ -1,0 +1,27 @@
+Project Name: Pricing Table
+
+Description:
+  - This project is a simple and professional pricing table layout.
+  - It compares different pricing plans (Basic, Pro, Premium).
+  - Users can clearly see features, pricing, and support options.
+
+Implementation:
+  - HTML:
+        * <h1> for the main heading.
+        * <table> to display pricing details in a structured format.
+        * <thead> for the table header with plan names.
+        * <tbody> for rows like price, users, storage, and support.
+        * <tr> defines each row, <td> for data, <th> for headings.
+  - CSS:
+        * Used Arial font for modern, clean design.
+        * Light gray background (#f9f9f9) for contrast.
+        * Centered table with white background.
+        * Box shadow to make the table stand out.
+        * Table headers styled with blue (#007bff) background and white text.
+        * Hover effect on rows for interactivity.
+
+Features:
+  - Clear comparison between Basic, Pro, and Premium plans.
+  - Well-structured table with borders and spacing.
+  - Hover effect makes it more interactive.
+  - Clean and professional look with minimal CSS.

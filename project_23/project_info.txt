@@ -1,0 +1,24 @@
+Project Name: Online Poll Page
+
+Description:
+  - A webpage that lets users vote for their favorite programming language.
+  - Uses a simple form with radio buttons so users can pick only one option.
+
+Implementation:
+  - HTML:
+      * <form> is used for user input.
+      * <fieldset> groups related options together.
+      * <legend> gives a title to the option group.
+      * <label> and <input type="radio"> used for selecting one choice.
+      * Submit button to send the vote.
+  - CSS:
+      * Page centered with flexbox for neat alignment.
+      * White card design with shadow and rounded corners.
+      * Styled heading and form spacing for better readability.
+      * Blue button with hover effect for interactivity.
+
+Features:
+  - Clean and user-friendly poll design.
+  - Radio buttons allow only one choice at a time.
+  - Responsive card layout that works on small and large screens.
+  - Can be reused for any type of voting or survey (favorite food, color, movie, etc.).

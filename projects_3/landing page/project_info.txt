@@ -1,0 +1,29 @@
+Project Name: Smart Watch Pro Landing Page
+
+Description:
+- A simple and attractive landing page for a smartwatch.
+- Built using HTML and CSS only.
+- Displays product details, images, and Buy Now buttons.
+- Designed to be clean, readable, and beginner-friendly.
+
+Implementation:
+- HTML:
+  * <header> for the product title and tagline.
+  * <section> blocks to organize content (features, images, product details, and buttons).
+  * <img> tags to show smartwatch pictures.
+  * <a> tag with class cta-button for Buy Now links.
+
+- CSS:
+  * Body styled with light gray background and centered text.
+  * Header with black background and white text.
+  * Images resized and centered neatly.
+  * Buttons styled with pink background, white text, rounded corners, and hover effect.
+
+Features:
+- Product introduction and tagline.
+- Watch images with descriptions.
+- Buy Now buttons linked to Amazon.
+- Hover effect on buttons for better user experience.
+- Simple and mobile-friendly design.
+
+

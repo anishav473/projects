@@ -1,0 +1,21 @@
+Project Name: Countdown Launch Page
+
+Description:
+  - A simple webpage that shows a countdown to a product launch date.
+  - Example: "Launch on January 1, 2026".
+  - Includes days, hours, minutes, and seconds.
+
+Implementation:
+  - HTML:
+      * Title, message, and a styled countdown section.
+      * Uses <span> elements for numbers inside the timer.
+  - CSS:
+      * Centered layout using Flexbox.
+      * Section styled with white background, black border, and shadow.
+      * Countdown numbers highlighted in green boxes.
+      * Clean and bold typography for easy readability.
+
+Features:
+  - Clear display of launch date and remaining time.
+  - Easy to customize for any product launch.
+  - Modern and minimal design.

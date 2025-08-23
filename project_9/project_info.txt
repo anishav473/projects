@@ -1,0 +1,28 @@
+Project Name: Newsletter Signup Form
+
+Description:
+  - This project is a simple and user-friendly newsletter signup form.
+  - It allows users to enter their email address and subscribe to updates.
+  - The design is clean, centered, and mobile-friendly.
+
+Implementation:
+  - HTML:
+        * <h1> for the main heading.
+        * <form> element contains all input fields.
+        * <p> gives instructions to the user.
+        * <label> for email input field.
+        * <input type="email"> ensures correct email format.
+        * <button type="submit"> to submit the form.
+  - CSS:
+        * Used Arial font for a modern, readable look.
+        * Background color: light teal (#e0f7fa) for a fresh feel.
+        * Centered form with padding and rounded corners.
+        * Input styled with borders and spacing.
+        * Button styled with green color (#00796b) and hover effect for better UI.
+
+Features:
+  - Email validation using "type=email".
+  - Clear and simple layout for better user experience.
+  - Responsive form design (looks good on any device).
+  - Hover effect on the button for interactivity.
+

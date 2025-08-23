@@ -1,0 +1,21 @@
+Project Name: Coming Soon Page
+
+Description:
+  - A simple "Coming Soon" webpage.
+  - Shows a title, short message, and an email form for notifications.
+  - Uses gradient background for modern look.
+
+Implementation:
+  - HTML:
+      * A container with heading, message, and email form.
+      * Input box for email + "Notify Me" button.
+  - CSS:
+      * Full-screen background with blue gradient.
+      * Centered content using Flexbox.
+      * Styled input field and button.
+      * Button changes color on hover.
+
+Features:
+  - Clean and attractive design.
+  - Email input field with required validation.
+  - Responsive and works on all devices.

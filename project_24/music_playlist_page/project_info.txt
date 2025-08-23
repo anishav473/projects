@@ -1,0 +1,24 @@
+Project Name: Music Playlist Page
+
+Description:
+  - A simple webpage to play and organize favorite songs.
+  - Uses <audio> elements with built-in controls (play, pause, volume).
+  - Shows a list of songs inside an ordered playlist.
+
+Implementation:
+  - HTML:
+      * <ul> and <li> used for listing songs.
+      * <audio controls> lets users play/pause music directly on the page.
+      * <source> tag specifies the audio file.
+      * Heading (<h2>) shows playlist title with a music emoji 🎵.
+  - CSS:
+      * Centered white card design with shadow.
+      * Pink heading for stylish look.
+      * Song list without default bullets.
+      * Audio player stretches to full width for neat alignment.
+
+Features:
+  - Users can play songs directly from the page.
+  - Clean and compact card-style layout.
+  - Works on mobile and desktop (responsive design).
+  - Can be extended to add more songs, albums, or categories.

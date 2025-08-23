@@ -1,0 +1,20 @@
+Project Name: Product Page
+
+Description:
+  - A single product showcase page.
+  - Displays product image, name, details, price, and a buy button.
+  - Clean and modern card design.
+
+Implementation:
+  - HTML:
+      * A product card with image, title, description, price, and button.
+  - CSS:
+      * Page centered using Flexbox.
+      * White card with rounded corners and shadow for neat look.
+      * Styled product image and text.
+      * Green "Buy Now" button with hover effect.
+
+Features:
+  - Responsive card layout.
+  - Simple and clean UI.
+  - Buy button changes color on hover.

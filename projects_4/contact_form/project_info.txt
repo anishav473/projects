@@ -1,0 +1,35 @@
+Project Name: Contact Us Form
+
+Description:
+- A simple and modern contact form built with HTML and CSS.
+- Lets users enter their name, email, subject, and message.
+- Clean design with proper spacing and shadows.
+
+Main Sections:
+1. Form Container:
+   - Centered in the page using flexbox.
+   - White background with rounded corners and shadow.
+
+2. Form Title:
+   - "Contact Us" heading.
+   - Big, clear, and centered.
+
+3. Input Fields:
+   - Full Name, Email Address, Subject, and Message.
+   - Each field has a label and a styled input box.
+   - The message box is larger and resizable.
+
+4. Button:
+   - A blue "Send Message" button.
+   - Turns darker blue on hover.
+   - Easy to see and click.
+
+Design Features:
+- Modern, minimal, and user-friendly design.
+- Blue highlight when typing inside input boxes.
+- Responsive: works on smaller screens.
+- Shadow and rounded corners for a professional look.
+
+Use Case:
+- Can be used on websites for user support, feedback, or business inquiries.
+- Can be connected to backend (PHP, Node.js, etc.) for storing or sending messages.

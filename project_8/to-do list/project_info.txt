@@ -1,0 +1,30 @@
+Project Name: To-Do List Application
+
+Description:
+  - This project is a simple To-Do List application built with HTML, CSS, and JavaScript.
+  - It allows users to add tasks, display them in a list, and remove them when completed.
+  - The design is minimal, clean, and easy to use.
+
+Implementation:
+  - HTML:
+        * <h1> for the main heading.
+        * <input> field to type tasks.
+        * <button> to add tasks to the list.
+        * <ul> to display all the added tasks.
+  - CSS:
+        * Used 'Times New Roman' font for a neat look.
+        * Centered layout with padding for better readability.
+        * Styled button with blue background and rounded corners.
+        * List items (li) have white background, borders, and hover effect.
+  - JavaScript:
+        * Function addItem() checks if input is not empty.
+        * Creates <li> element dynamically and adds it to the <ul>.
+        * Each task can be removed by clicking on it.
+        * After adding, input box is cleared automatically.
+
+Features:
+  - Add new tasks easily with input + button.
+  - Delete tasks by clicking on them.
+  - Interactive design with hover effects.
+  - Responsive and beginner-friendly code.
+

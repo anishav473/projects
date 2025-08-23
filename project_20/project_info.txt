@@ -1,0 +1,22 @@
+Project Name: Customer Testimonials Page
+
+Description:
+  - A simple webpage that displays customer reviews.
+  - Each testimonial has a photo, feedback, and customer name.
+  - Makes the page look more trustworthy and user-friendly.
+
+Implementation:
+  - HTML:
+      * <main> used as the main container for all testimonials.
+      * Each testimonial is inside a <section> with an image, quote, and name.
+      * <blockquote> used to show customer feedback in a nice way.
+  - CSS:
+      * Page background is light cream (#fdf6f0) for a soft look.
+      * Testimonials box has white background, rounded corners, and shadow.
+      * Customer images are shown in circles.
+      * Text styled for readability (italic for quotes, bold for names).
+
+Features:
+  - Neat and professional design.
+  - Highlights customer trust and feedback.
+  - Easy to add more testimonials by copying sections.

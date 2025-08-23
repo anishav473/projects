@@ -1,0 +1,23 @@
+Project Name: Meet the Team Page
+
+Description:
+  - A webpage to showcase team members with their photos, roles, and short bios.
+  - Helps users know the people behind the work.
+
+Implementation:
+  - HTML:
+      * <header> shows the title and intro text.
+      * <main> contains multiple <section> elements, one for each team member.
+      * Each member has a photo (<img>), name (<h2>), role, and description.
+  - CSS:
+      * Page uses light background with centered header.
+      * Team members shown in card layout with shadow and rounded corners.
+      * Flexbox makes the layout responsive and evenly spaced.
+      * Hover effect lifts the card for interactive feel.
+      * Photos are circular using border-radius: 50%.
+
+Features:
+  - Clean and modern card design.
+  - Responsive layout that works on desktop and mobile.
+  - Interactive hover animation.
+  - Easy to add or remove team members.

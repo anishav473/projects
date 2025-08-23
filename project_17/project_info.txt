@@ -1,0 +1,20 @@
+Project Name: 404 Error Page
+
+Description:
+  - A custom "Page Not Found" (404) error page.
+  - Displays a clear error message with a button to go back home.
+  - Designed with a modern and user-friendly look.
+
+Implementation:
+  - HTML:
+      * Container with heading (404), message, and a home link.
+  - CSS:
+      * Full page centered using Flexbox.
+      * Large red "404" text for attention.
+      * White card box with rounded corners and shadow.
+      * Styled button that changes color on hover.
+
+Features:
+  - Clean and simple design.
+  - Makes website errors look professional.
+  - Responsive and easy to understand for users.

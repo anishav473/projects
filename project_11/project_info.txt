@@ -1,0 +1,24 @@
+Project Name: Event Invitation Page
+
+Description:
+  - A simple webpage for a birthday invitation.
+  - It shows event details like date, time, and location.
+  - Includes an RSVP form for guests to confirm attendance.
+
+Implementation:
+  - HTML:
+      * <h1> for the main title of the invitation.
+      * <img> to display a banner image.
+      * <section> used to group "Event Details" and "RSVP" separately.
+      * <form> collects guest information (name and email).
+      * <input type="submit"> for confirming RSVP.
+  - CSS:
+      * Centered layout with max-width for neat look.
+      * Purple theme for headings and buttons.
+      * Box shadow and rounded corners for clean design.
+      * Hover effect on the RSVP button for interactivity.
+
+Features:
+  - Shows clear event details.
+  - Guests can RSVP directly on the page.
+  - Modern and attractive styling.

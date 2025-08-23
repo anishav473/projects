@@ -1,0 +1,22 @@
+Project Name: Parallax Hover Effect Card
+
+Description:
+  - A stylish card with a background image and text on top.
+  - When the user hovers, the background image zooms in and moves slightly for a parallax effect.
+
+Implementation:
+  - HTML:
+      * <div class="parallax-card"> → main card container.
+      * <div class="parallax-bg"> → background image layer.
+      * <div class="parallax-content"> → text displayed on top.
+  - CSS:
+      * Body is centered with flexbox and dark background.
+      * The card has rounded corners, hidden overflow, and perspective for 3D feel.
+      * Background uses Unsplash image, scales up, and shifts up on hover.
+      * Text has white color and shadow for visibility.
+
+Features:
+  - Smooth hover animation with `transition`.
+  - Eye-catching zoom + movement effect.
+  - Reusable for banners, agency cards, or portfolio highlights.
+  - Only uses HTML and CSS (no JavaScript required).

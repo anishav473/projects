@@ -1,0 +1,24 @@
+Project Name: Business Card
+
+Description:
+  - A digital business card webpage for Anisha Verma.
+  - Shows profile picture, name, job title, and contact information.
+  - Includes clickable email, phone number, and website links.
+
+Implementation:
+  - HTML:
+      * <div class="card"> used as the main container.
+      * <img> tag shows profile picture.
+      * <h1> and <h2> for name and profession.
+      * <p> tags for email, phone, address, and website.
+      * <a> tags with mailto: and tel: make email and phone clickable.
+  - CSS:
+      * Page centered using flexbox.
+      * White card with rounded corners and shadow for a neat look.
+      * Profile image styled as a circle.
+      * Buttons styled with hover effect for links.
+
+Features:
+  - Simple and professional design.
+  - Contact details are easy to access.
+  - Mobile-friendly centered layout.

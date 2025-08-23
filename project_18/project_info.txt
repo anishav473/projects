@@ -1,0 +1,20 @@
+Project Name: Weather Information Card
+
+Description:
+  - A simple card showing weather details of a city.
+  - Example: "New Delhi" with temperature, weather image, and condition.
+  - Clean design with centered layout.
+
+Implementation:
+  - HTML:
+      * Section with city name, weather image, temperature, and short text.
+  - CSS:
+      * Full page centered using Flexbox.
+      * White card with rounded corners and shadow effect.
+      * Weather image displayed clearly.
+      * Temperature highlighted in blue color.
+
+Features:
+  - Easy to read and user-friendly.
+  - Can be updated for any city and weather condition.
+  - Looks modern with neat design.

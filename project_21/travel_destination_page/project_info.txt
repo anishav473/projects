@@ -1,0 +1,23 @@
+Project Name: Travel Destination Page
+
+Description:
+  - A clean and attractive webpage showcasing travel destinations.
+  - The example highlights "Manali, Himachal Pradesh" with details, images, and attractions.
+  - Includes a booking button for quick navigation to external booking sites.
+
+Implementation:
+  - HTML:
+      * <main> used as the main wrapper.
+      * Destination details include headings, paragraphs, images, and lists.
+      * "Book Now" link styled as a button for easy call-to-action.
+  - CSS:
+      * Soft blue background (#f0f8ff) with white content card.
+      * Rounded corners and shadow for modern card look.
+      * Clear typography (Segoe UI) with spacing for readability.
+      * Button styled in green with hover effect for interactivity.
+
+Features:
+  - Highlights destination description, attractions, best time to visit, and rating.
+  - Responsive layout (image scales to full width).
+  - User-friendly design with direct "Book Now" option.
+  - Easy to reuse for multiple destinations by duplicating sections.

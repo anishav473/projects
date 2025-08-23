@@ -1,0 +1,24 @@
+Project Name: Recipe Page
+
+Description:
+  - A simple webpage that shows a recipe for chocolate chip cookies.
+  - Includes introduction, ingredients, and step-by-step instructions.
+  - Displays an image of the cookies.
+
+Implementation:
+  - HTML:
+      * <h1> for the recipe name.
+      * <section> used to organize content (intro, ingredients, instructions).
+      * <ul> (unordered list) for ingredients.
+      * <ol> (ordered list) for cooking steps.
+      * <img> to show the recipe picture.
+  - CSS:
+      * Clean and light background color.
+      * Indigo heading color for attractive look.
+      * Added spacing between sections.
+      * Rounded corners for the image.
+
+Features:
+  - Easy-to-follow recipe steps.
+  - Well-structured layout for readability.
+  - Simple and neat styling.
