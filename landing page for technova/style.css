@@ -1,0 +1,283 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+.navbar a:hover {
+  color: #0077ff;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background: url('hero.jpg') no-repeat center center/cover;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* halka dark shade */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;   /* h1 aur p ke beech gap */
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;   /* p aur button ke beech gap */
+}
+
+.hero .btn {
+  padding: 0.7rem 1.5rem;
+  background: #0077ff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+/* Hover effect */
+.hero .btn:hover {
+  background: #0056b3;   /* thoda dark blue */
+  transform: scale(1.05); /* halka sa bada hoga */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* glow effect */
+}
+
+
+/* Features */
+.features {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.features .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.features .card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.features .card:hover {
+  transform: translateY(-10px);
+}
+
+/* Showcase */
+.showcase {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.showcase {
+  display: flex;
+  justify-content: center;
+  gap: 20px;  /* images ke beech gap */
+}
+
+.showcase img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.showcase {
+  display: flex;
+  justify-content: center;
+  gap: 80px;          /* images ke beech spacing */
+  flex-wrap: nowrap;  /* ek row me rakhega */
+}
+
+.product-card {
+  width: 350px;   /* size badhaya */
+  height: 220px;  /* size badhaya */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Pricing */
+.pricing {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.plan {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.highlight {
+  border: 2px solid #0077ff;
+  transform: scale(1.05);
+}
+.plan .btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #0077ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #0077ff;
+  color: white;
+}
+blockquote {
+  margin: 1rem auto;
+  max-width: 600px;
+  font-style: italic;
+}
+
+/* FAQ */
+.faq {
+  padding: 4rem 2rem;
+}
+details {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: auto;
+}
+.contact input, .contact textarea, .contact button {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  background: #0077ff;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+.footer .socials {
+  margin-top: 0.5rem;
+}
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0077ff;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .showcase {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .product-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+}
