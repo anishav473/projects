@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Task Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+    <div class="app-container">
+        <header>
+            <div class="title-section">
+                <h1>To-do List</h1>
+                <p id="date-display"></p>
+            </div>
+            <button id="theme-toggle" class="icon-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <div class="input-group">
+            <input type="text" id="todo-input" placeholder="What needs to be done?" autocomplete="off">
+            <button id="add-btn">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+
+        <div class="stats-bar">
+            <span id="task-count">0 tasks left</span>
+            <div class="filter-chips">
+                <button class="chip active" data-filter="all">All</button>
+                <button class="chip" data-filter="pending">Pending</button>
+                <button class="chip" data-filter="completed">Completed</button>
+            </div>
+        </div>
+
+        <ul id="todo-list" class="task-list">
+            </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
