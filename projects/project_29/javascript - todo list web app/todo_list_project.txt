@@ -1,0 +1,99 @@
+Project Title:
+--------------
+Modern Task Manager (To-Do List Application)
+
+Author:
+--------
+Anisha verma
+
+Date:
+-----
+21-12-2025
+
+Technologies Used:
+------------------
+HTML, CSS, JavaScript
+
+Project Description:
+--------------------
+This project is a Modern To-Do List web application that helps users
+organize their daily tasks. Users can add tasks, mark them as completed,
+delete tasks, filter tasks, switch between light and dark themes, and
+store tasks permanently using localStorage.
+
+Purpose of the Project:
+-----------------------
+The purpose of this project is to demonstrate the use of front-end web
+technologies to create an interactive, user-friendly, and responsive
+task management application.
+
+Project Structure:
+------------------
+1. index.html – Structure of the application
+2. style.css – Styling and design
+3. script.js – Functionality and logic
+
+HTML Explanation:
+-----------------
+The HTML file provides the basic structure of the application.
+It includes:
+- A title section showing the app name and current date
+- An input field to enter tasks
+- An add button to add tasks
+- Filter buttons to view all, pending, or completed tasks
+- A task list to display all tasks
+- A theme toggle button for light and dark mode
+Font Awesome icons are used to enhance the user interface.
+
+CSS Explanation:
+----------------
+The CSS file styles the application with a modern design.
+Key features include:
+- Light and dark theme using CSS variables
+- Gradient background and card-style layout
+- Responsive design using flexbox
+- Smooth animations for tasks
+- Hover effects on buttons
+- Visual indication for completed tasks
+
+JavaScript Explanation:
+-----------------------
+The JavaScript file controls the behavior of the application.
+It performs the following tasks:
+- Adds new tasks entered by the user
+- Marks tasks as completed or pending
+- Deletes tasks from the list
+- Filters tasks (All, Pending, Completed)
+- Updates task count dynamically
+- Saves tasks in localStorage for persistence
+- Displays the current date
+- Toggles between light and dark themes
+
+Input:
+------
+- Task text entered by the user
+- Mouse clicks and keyboard input
+
+Output:
+-------
+- Displayed list of tasks
+- Updated task counter
+- Visual theme change
+- Saved tasks after page refresh
+
+Features:
+---------
+1. Add new tasks
+2. Delete tasks
+3. Mark tasks as completed
+4. Filter tasks
+5. Light/Dark theme toggle
+6. LocalStorage support
+7. Responsive design
+
+Conclusion:
+-----------
+This Modern Task Manager project successfully combines HTML, CSS, and
+JavaScript to create a complete and functional web application.
+It provides a clean interface, smooth user interaction, and persistent
+task storage, making it useful for daily task management.
