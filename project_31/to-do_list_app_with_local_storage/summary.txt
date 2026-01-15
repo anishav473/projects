@@ -1,0 +1,26 @@
+Project Title: To-Do List Application using JavaScript
+
+Project Description:
+This project is a professional To-Do List web application developed using HTML, CSS, and JavaScript. The main objective of this project is to help users manage their daily tasks efficiently in a simple and user-friendly interface.
+
+What I Did in This Project:
+1. Designed a clean, modern, and responsive user interface using HTML and CSS.
+2. Implemented functionality to add new tasks using JavaScript.
+3. Enabled task addition using both the Add button and the Enter key for better user experience.
+4. Implemented task completion feature where users can mark tasks as completed.
+5. Added functionality to delete tasks individually.
+6. Used browser Local Storage to store tasks so that data is not lost after page refresh.
+7. Applied DOM manipulation and event handling concepts to dynamically update the task list.
+8. Ensured the project is responsive and works smoothly on different screen sizes.
+
+Technologies Used:
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Browser Local Storage
+
+Learning Outcome:
+Through this project, I gained hands-on experience in JavaScript DOM manipulation, event handling, form submission handling, and data persistence using Local Storage. This project helped me understand how real-world web applications work on the client side.
+
+Project Type:
+Internship Assignment / Mini Project
