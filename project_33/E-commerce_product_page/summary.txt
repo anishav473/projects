@@ -1,0 +1,20 @@
+E-commerce Store Project Summary
+
+This project is a mini E-commerce store developed using HTML,
+CSS, and JavaScript as part of my internship assignment.
+
+The application displays multiple products with images,
+descriptions, prices, and quantity controls. Product cards
+are designed with a modern and professional user interface.
+Image sizes are optimized to maintain a clean and balanced
+layout similar to real e-commerce websites.
+
+Users can increase or decrease product quantities and add
+items to the cart. JavaScript is used for DOM manipulation,
+event handling, and dynamic updates. Cart data is stored in
+the browser using Local Storage to simulate real shopping
+cart functionality.
+
+This project demonstrates:
+- DOM manipulation using JavaScript
+- Event

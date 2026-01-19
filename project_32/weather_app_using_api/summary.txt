@@ -1,0 +1,25 @@
+Weather App Project Summary
+
+This Weather App is developed using HTML, CSS, and JavaScript.
+The main objective of this project is to practice JavaScript
+DOM manipulation, form handling, event listeners, and basic
+asynchronous behavior.
+
+The application allows users to enter a city name and view
+weather details such as temperature, weather condition, and
+humidity. A loading message is displayed to simulate real-time
+data fetching and improve user experience.
+
+Mock weather data is used in this project to demonstrate the
+working of a weather application without using an external API.
+This approach helps in understanding JavaScript logic clearly
+without dependency on API keys.
+
+The project focuses on:
+- Clean and attractive user interface
+- Responsive design
+- Proper JavaScript logic
+- User-friendly interaction
+
+This project helped me improve my understanding of JavaScript
+and frontend development concepts.

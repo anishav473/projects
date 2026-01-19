@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="title">Mini E-commerce Store</h1>
+
+  <div class="products">
+
+    <!-- Product 1 -->
+    <div class="card">
+      <img src="premium_photo-1678099940967-73fe30680949.avif" alt="">
+      <h2>Wireless Headphones</h2>
+      <p class="desc">Noise cancellation & long battery life</p>
+      <p class="price">₹ <span>1999</span></p>
+
+      <div class="qty">
+        <button onclick="changeQty(0, -1)">−</button>
+        <span id="qty0">1</span>
+        <button onclick="changeQty(0, 1)">+</button>
+      </div>
+
+      <button onclick="addToCart(0)">Add to Cart</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="Pulse.webp" alt="">
+      <h2>Smart Watch</h2>
+      <p class="desc">Fitness tracking & notifications</p>
+      <p class="price">₹ <span>2999</span></p>
+
+      <div class="qty">
+        <button onclick="changeQty(1, -1)">−</button>
+        <span id="qty1">1</span>
+        <button onclick="changeQty(1, 1)">+</button>
+      </div>
+
+      <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+
+  </div>
+
+  <p id="message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

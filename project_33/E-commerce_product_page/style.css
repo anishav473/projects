@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 50%;
+  height: auto;
+  object-fit: contain
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin: 12px 0 5px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+}
+
+.price {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.qty {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.qty button {
+  padding: 4px 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.card button {
+  background: #203a43;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #0f2027;
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #7CFC00;
+}
