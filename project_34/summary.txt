@@ -1,0 +1,17 @@
+Quiz App with Score Tracking – Project Summary
+
+This project is a Quiz Application developed using HTML, CSS,
+and JavaScript as part of my internship tasks.
+
+The application presents multiple-choice questions to the
+user one by one. Users can select an answer and move to the
+next question. At the end of the quiz, the final score is
+displayed on the screen.
+
+JavaScript is used extensively for DOM manipulation, event
+handling, question navigation, and score calculation. The
+best score achieved by the user is stored in the browser
+using Local Storage, allowing score tracking across sessions.
+
+This project demonstrates:
+- Dynam
